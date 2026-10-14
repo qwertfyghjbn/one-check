@@ -1,0 +1,18 @@
+---
+description: Personal experiments continue after one related check. Do not block an edit on a new baseline, hash chain, or acceptance matrix.
+alwaysApply: true
+---
+
+# One check
+
+This repository is a personal experiment. After a change, run one related test or one short run, then continue. Run a heavier check only when the user names it.
+
+Do not block the next edit on a new probe, snapshot, evidence chain, gate list, fixture matrix, smoke table, unique baseline, traceable backup, full dry-run, hash reconciliation, or acceptance matrix. Do not rebuild a software identity, backfill sha256, or copy an acceptance record before a one-line change.
+
+```text
+User: fix the service branch in the adapter
+Do: edit that branch, run that adapter test, read the error
+Stop: identity chain, smoke matrix, full dry-run, hash reconciliation
+```
+
+Report an unpushed check as a local result.
